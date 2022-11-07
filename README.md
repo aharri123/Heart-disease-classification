@@ -30,4 +30,4 @@ Each attribute is a potential risk factor. There are both demographic, behaviora
 • glucose: glucose level
   
   Target Variable:
-• TenYearCHD: 10 year risk of coronary heart disease CHD (“1” means “Yes”, “0” means “No”)
+• TenYearCHD: 10 year risk of coronary heart disease or CHD (“1” means “Yes”, “0” means “No”)
