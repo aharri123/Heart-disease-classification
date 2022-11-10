@@ -11,7 +11,7 @@ Each attribute is a potential risk factor. There are both demographic, behaviora
 • Age: Age of the patient
   
   Behavioral:
-• Education: Less than High School and High School degrees (0) or College Degree and Higher (1)
+• education: Less than High School and High School degrees (0) or College Degree and Higher (1)
 • currentSmoker: Whether the patient is a current smoker (1) or not (0)
 • cigsPerDay: the number of cigarettes that the person smoked on average in one day. 
 
@@ -19,7 +19,7 @@ Each attribute is a potential risk factor. There are both demographic, behaviora
 • BPMeds: Whether patient was on blood pressure medication (1) or not (0)
 • prevalentStroke: Whether the patient had previously had a stroke (1) or not (0)
 • prevalentHyp: Whether the patient was hypertensive (1) or not (0)
-• Diabetes: Whether the patient had diabetes (1) or not (0)
+• diabetes: Whether the patient had diabetes (1) or not (0)
   
   Medical(current):
 • totChol: total cholesterol level
