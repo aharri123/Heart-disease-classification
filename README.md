@@ -124,3 +124,7 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 
 
 ### Improving The Models ###
+
+
+#### 1) Decision Tree ####
+We'll see how manipulating the max_depth, min_samples_split, and min_samples_leaf hyperparameters in our decision tree model will affect our evaluation metrics.
