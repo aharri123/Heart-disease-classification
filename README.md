@@ -8,6 +8,7 @@ We'll be working with the largest hospital in Massachusetts (The Massachusetts G
 ### Data ###
 The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is a long term, ongoing study on cardiovascular disease (CVD). Started in 1948, the study looked at numerous factors such as age, gender, cholesterol levels, etc, and would eventually lead to the identification of several CVD risk factors. We'll be using the data from this study, which contains various attributes, each of which is considered a potential risk factor. The attirbutes can be divided into demographic, behavioral and medical categories, and are listed below.
 
+
   **Demographic:**
 * male: male (1) or female (0)
 * Age: Age of the patient
