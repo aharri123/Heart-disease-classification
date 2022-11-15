@@ -102,3 +102,6 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 After fitting and running our last model, we printed our training and test model classification reports as well as the test model confusion matrix: 
 
 
+![rand_forest_classification_reports](https://user-images.githubusercontent.com/45251340/202013129-968cdeed-5969-454c-a2fe-94b484ecef53.JPG)
+
+
