@@ -135,3 +135,9 @@ We graphed training and test AUC scores for the **max_depth, min_samples_split, 
 
 ![min_sample_leaf_dec_tree_auc_score](https://user-images.githubusercontent.com/45251340/202015211-67bb90e0-1436-4d61-ab97-68f72af4e4a4.JPG)
 
+
+**From our AUC graphs, we can see that:**
+
+* Our optimized max_depth value is between 1 and 5. Any higher, and the model starts overfitting due to the training model performing better than our test model
+* Our optimized min_sample_split value is between 0.2 and 0.4. Any higher and performance for both models does not change
+* Our optimized min_samples_leaf value is between 0.1 and 0.13. Any higher and performance decreases before plateauing
