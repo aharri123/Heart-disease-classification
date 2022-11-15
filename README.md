@@ -75,6 +75,8 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 
 **2) Decision Tree**
 
-After fitting and running our model, we printed our training and test model classification reports: 
+After fitting and running our model, we printed our training and test model classification reports as well as the test model confusion matrix: 
 
 ![dec_tree_classification_reports](https://user-images.githubusercontent.com/45251340/202012251-6beffb40-991e-4b41-a5a2-d5cb26e8e002.JPG)
+
+![dec_tree_confusion_matrix](https://user-images.githubusercontent.com/45251340/202012424-a09d1eaf-ee0c-49ef-a458-401f432e85c7.JPG)
