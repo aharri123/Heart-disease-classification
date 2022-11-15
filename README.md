@@ -166,4 +166,4 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 
 **2) Random Forest**
 
-Two grid searches were ran, using **n_estimators, max_depth, min_samples_split, and min_samples_leaf** hyperparameters as the grid search values. 
+Two grid searches were ran, using **n_estimators, max_depth, min_samples_split, and min_samples_leaf** as the grid search parameters. 
