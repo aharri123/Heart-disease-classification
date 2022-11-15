@@ -43,5 +43,8 @@ The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is 
 
 ### Initial Models ###
 
+First we split our data using train-test split, and then scaled our data using StandardScaler. Noticing our data was unbalanced, we used SMOTE, and then moved onto our models.
+
+**Logistic Regression**
 
 
