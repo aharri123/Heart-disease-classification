@@ -162,3 +162,8 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 * 49 patients were wrongly predicted as not being at risk for CHD
 * 369 patients were wrongly predicted as being at risk for CHD
 * 108 patients were correctly predicted as being at risk for CHD
+
+
+**2) Random Forest**
+
+Two grid searches were ran, using **n_estimators, max_depth, min_samples_split, and min_samples_leaf** hyperparameters as the grid search values. 
