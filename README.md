@@ -80,3 +80,19 @@ After fitting and running our model, we printed our training and test model clas
 ![dec_tree_classification_reports](https://user-images.githubusercontent.com/45251340/202012251-6beffb40-991e-4b41-a5a2-d5cb26e8e002.JPG)
 
 ![dec_tree_confusion_matrix](https://user-images.githubusercontent.com/45251340/202012424-a09d1eaf-ee0c-49ef-a458-401f432e85c7.JPG)
+
+
+**This time our model is greatly overfitting. Let's take a look at our classification report results**
+
+For our test model class 1 (meaning the patient is at risk for coronary heart disease) we have a precision score of .23, a recall score of .36, and an f1 score of .28, meaning:
+
+* Out of all the patients that the model predicted would be at risk for CHD, 23% were actually at risk.
+* Out of all the patients that were at risk for CHD, the model correctly predicted 36% of them
+* Our model has a low f1 score, indicating poor performance on predicting risk of CHD.
+
+**Looking at our test model confusion matrix we can see that:**
+
+* 691 patients were correctly predicted as not being at risk for CHD
+* 101 patients were wrongly predicted as not being at risk for CHD
+* 186 patients were wrongly predicted as being at risk for CHD
+* 56 patients were correctly predicted as being at risk for CHD
