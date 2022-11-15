@@ -13,8 +13,8 @@ Each attribute is a potential risk factor. There are both demographic, behaviora
 
   Demographic:
   
-• male: male (1) or female (0)
-• Age: Age of the patient
+* male: male (1) or female (0)
+* Age: Age of the patient
   
   Behavioral:
 • education: Less than High School and High School degrees (0) or College Degree and Higher (1)
