@@ -121,3 +121,6 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 * 114 patients were wrongly predicted as not being at risk for CHD
 * 87 patients were wrongly predicted as being at risk for CHD
 * 43 patients were correctly predicted as being at risk for CHD
+
+
+### Improving The Models ###
