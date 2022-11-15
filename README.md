@@ -64,7 +64,8 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 * Out of all the patients that the model predicted would be at risk for CHD, 28% were actually at risk.
 * Out of all the patients that were at risk for CHD, the model correctly predicted 71% of them
 * Our model has a low f1 score, indicating poor performance on predicting risk of CHD.
-* We can also see the true negative, false negative, false positive and true positive values for our test model (from our confusion matrix), where:
+
+** we can also see the true negative, false negative, false positive and true positive values for our test model (from our confusion matrix), where: **
 
 * 586 patients were correctly predicted as not being at risk for CHD
 * 45 patients were wrongly predicted as not being at risk for CHD
