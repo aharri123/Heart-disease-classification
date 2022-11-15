@@ -45,6 +45,6 @@ The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is 
 
 First we split our data using train-test split, and then scaled our data using StandardScaler. Noticing our data was unbalanced, we used SMOTE, and then moved onto our models.
 
-**Logistic Regression**
-
-
+**1) Logistic Regression**
+After fitting and running our model, we got our classification report: 
+![log_reg_classification_reports](https://user-images.githubusercontent.com/45251340/202010680-dbae2d3c-c763-4266-a979-6ca6bbb44395.JPG)
