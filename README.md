@@ -1,7 +1,8 @@
-#### Heart Disease Classification ####
+## Heart Disease Classification ##
 
 
-Business Goal
+### Business Goal ###
+
 We'll be working with the largest hospital in Massachusetts (The Massachusetts General Hospital). Using various classification algorithms, we'll determine which algorithm provides the most accurate predictions for whether a patient is at risk in 10 years for coronary heart disease (CHD). This will in turn help the hospital create a treatment/preventative plan for at-risk patients early on, and hopefully prevent CHD from developing.
 
 
