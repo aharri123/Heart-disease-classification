@@ -36,7 +36,7 @@ The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is 
 
 
 
-After checking for duplicates and null values, our data looked like: 
+**After checking for duplicates and null values, our data looked like:**
 
 ![data columns](https://user-images.githubusercontent.com/45251340/202008954-5c6a410f-0165-47a5-92df-089bc46ebce6.JPG)
 
