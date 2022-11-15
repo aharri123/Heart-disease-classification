@@ -96,3 +96,9 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 * 101 patients were wrongly predicted as not being at risk for CHD
 * 186 patients were wrongly predicted as being at risk for CHD
 * 56 patients were correctly predicted as being at risk for CHD
+
+**3) Random Forest**
+
+After fitting and running our last model, we printed our training and test model classification reports as well as the test model confusion matrix: 
+
+
