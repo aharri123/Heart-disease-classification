@@ -6,8 +6,7 @@
 We'll be working with the largest hospital in Massachusetts (The Massachusetts General Hospital). Using various classification algorithms, we'll determine which algorithm provides the most accurate predictions for whether a patient is at risk in 10 years for coronary heart disease (CHD). This will in turn help the hospital create a treatment/preventative plan for at-risk patients early on, and hopefully prevent CHD from developing.
 
 ### Data ###
-The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is a long term, ongoing study on cardiovascular disease (CVD). Started in 1948, the study looked at numerous factors such as age, gender, cholesterol levels, etc, and would eventually lead to the identification of several CVD risk factors. We'll be using the data from this study, which contains various attributes, each of which is considered a potential risk factor. The attirbutes can be divided into demographic, behavioral and medical categories, as well as our target variable. They are listed below.
-
+The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is a long term, ongoing study on cardiovascular disease (CVD). Started in 1948, the study looked at numerous factors such as age, gender, cholesterol levels, etc, and would eventually lead to the identification of several risk factors for CVD. We'll be using a Kaggle dataset from this study, which contains various attributes, each of which is considered a potential risk factor. The attributes can be divided into demographic, behavioral and medical categories, as well as a target variable category. They are listed below.
 
 **Demographic:**
 * male: male (1) or female (0)
