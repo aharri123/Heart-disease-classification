@@ -127,4 +127,11 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 
 
 #### 1) Decision Tree ####
-We'll see how manipulating the **max_depth, min_samples_split, and min_samples_leaf** hyperparameters in our decision tree model will affect our evaluation metrics.
+We graphed training and test AUC scores for the **max_depth, min_samples_split, and min_samples_leaf** hyperparameters as shown below:
+
+![dec_tree_max_depth_auc_score](https://user-images.githubusercontent.com/45251340/202015172-81f3703d-a0f8-4a9d-96be-3c2d142e803b.JPG)
+
+![min_sample_splits_dec_tree_auc_score](https://user-images.githubusercontent.com/45251340/202015194-9510f20b-967f-4af3-b54c-c805df67a85a.JPG)
+
+![min_sample_leaf_dec_tree_auc_score](https://user-images.githubusercontent.com/45251340/202015211-67bb90e0-1436-4d61-ab97-68f72af4e4a4.JPG)
+
