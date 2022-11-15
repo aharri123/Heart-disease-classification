@@ -71,3 +71,10 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 * 45 patients were wrongly predicted as not being at risk for CHD
 * 291 patients were wrongly predicted as being at risk for CHD
 * 112 patients were correctly predicted as being at risk for CHD
+
+
+**2) Decision Tree**
+
+After fitting and running our model, we printed our training and test model classification reports: 
+
+![dec_tree_classification_reports](https://user-images.githubusercontent.com/45251340/202012251-6beffb40-991e-4b41-a5a2-d5cb26e8e002.JPG)
