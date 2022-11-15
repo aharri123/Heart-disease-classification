@@ -47,6 +47,11 @@ First we split our data using train-test split, and then scaled our data using S
 
 **1) Logistic Regression**
 
-After fitting and running our model, we got our classification report: 
+After fitting and running our model, we printed our training and test model classification reports: 
 
 ![log_reg_classification_reports](https://user-images.githubusercontent.com/45251340/202010680-dbae2d3c-c763-4266-a979-6ca6bbb44395.JPG)
+
+We also displayed our test model confusion matrix:
+
+
+![log_reg_conf_matrix](https://user-images.githubusercontent.com/45251340/202011008-09b88b92-063a-4228-bbc6-0e292fc5d8c3.JPG)
