@@ -18,6 +18,7 @@ The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is 
 * cigsPerDay: the number of cigarettes that the person smoked on average in one day. 
 
   Medical History:
+  
 * BPMeds: Whether patient was on blood pressure medication (1) or not (0)
 * prevalentStroke: Whether the patient had previously had a stroke (1) or not (0)
 * prevalentHyp: Whether the patient was hypertensive (1) or not (0)
