@@ -3,10 +3,10 @@
 
 ### Business Goal ###
 
-We'll be working with the largest hospital in Massachusetts (The Massachusetts General Hospital). Using various classification algorithms, we'll determine which algorithm provides the most accurate predictions for whether a patient is at risk in 10 years for coronary heart disease (CHD). This will in turn help the hospital create a treatment/preventative plan for at-risk patients early on, and hopefully prevent CHD from developing.
+We'll be working with the largest hospital in Massachusetts (The Massachusetts General Hospital). Using various classification algorithms, we'll determine which algorithm provides the most accurate predictions for whether a patient is at risk in 10 years for a type of cardiovascular disease called coronary heart disease (CHD). This will in turn help the hospital create a treatment/preventative plan for at-risk patients early on, and hopefully prevent CHD from developing.
 
 ### Data ###
-The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is a long term, ongoing study on cardiovascular disease (CVD). Started in 1948, the study looked at numerous factors such as age, gender, cholesterol levels, etc, and would eventually lead to the identification of several risk factors for CVD. We'll be using a Kaggle dataset from this study, which contains various attributes, each of which is considered a potential risk factor. The attributes can be divided into demographic, behavioral and medical categories, as well as a target variable category. They are listed below.
+The Framingham Heart Study (https://www.framinghamheartstudy.org/fhs-about/) is a long term, ongoing study on cardiovascular diseases. Started in 1948, the study looked at numerous factors such as age, gender, cholesterol levels, etc, and would eventually lead to the identification of several risk factors for a cardiovascular disease. We'll be using a Kaggle dataset from this study, which contains multiple risk factors for a type of cardiovascular disease called coronary heart disease (CHD). The dataset also contains a target variable for whether a patient is at risk in 10 years for CHD. The variables can be divided into demographic, behavioral and medical categories, and are listed below.
 
 **Demographic:**
 * male: male (1) or female (0)
