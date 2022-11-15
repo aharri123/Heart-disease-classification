@@ -12,6 +12,7 @@ We'll be working with the largest hospital in Massachusetts (The Massachusetts G
 Each attribute is a potential risk factor. There are both demographic, behavioral and medical risk factors.
 
   Demographic:
+  
 • male: male (1) or female (0)
 • Age: Age of the patient
   
