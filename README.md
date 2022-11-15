@@ -142,7 +142,7 @@ We graphed training and test AUC scores for the **max_depth, min_samples_split, 
 * Our optimized min_sample_split value is between 0.2 and 0.4. Any higher and performance for both models does not change
 * Our optimized min_samples_leaf value is between 0.1 and 0.13. Any higher and performance decreases before plateauing
 
-We then created a grid search with these value ranges and printed out our classification reports and confusion Matrix:
+**We then created a grid search with these value ranges and printed out our classification reports and confusion Matrix:**
 
 ![dec_tree_classification_reports2](https://user-images.githubusercontent.com/45251340/202016807-925a2878-6ccb-4738-83bf-4eec107675b2.JPG)
 
