@@ -176,10 +176,15 @@ Both showed reduced overfitting, but the better performing one had the following
 ![rand_forest_confusion_matrix2](https://user-images.githubusercontent.com/45251340/202256698-83fd1678-efcf-434d-b40a-e7eac81b5406.JPG)
 
 
-precision score of .26, a recall score of .67, and an f1 score of .37, meaning:
+The better performing Random Forest model precision score of .26, a recall score of .67, and an f1 score of .37, meaning:
 
 * Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
 * Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a drastic improvement from our base model
 * Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved from our initial results.: 
 
+**Then, Looking at our test model confusion matrix we can see that:**
 
+* 575 patients were correctly predicted as not being at risk for CHD
+* 52 patients were wrongly predicted as not being at risk for CHD
+* 302 patients were wrongly predicted as being at risk for CHD
+* 105 patients were correctly predicted as being at risk for CHD
