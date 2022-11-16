@@ -167,3 +167,19 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 **2) Random Forest**
 
 Two grid searches were ran, using **n_estimators, max_depth, min_samples_split, and min_samples_leaf** as the grid search parameters. 
+
+
+Both showed reduced overfitting, but the better performing one had the following classification reports and confusion matrix:
+
+![rand_forest_classifcation_reports2](https://user-images.githubusercontent.com/45251340/202256674-a428b516-cb55-4695-9fdb-653fdc8edbac.JPG)
+
+![rand_forest_confusion_matrix2](https://user-images.githubusercontent.com/45251340/202256698-83fd1678-efcf-434d-b40a-e7eac81b5406.JPG)
+
+
+precision score of .26, a recall score of .67, and an f1 score of .37, meaning:
+
+* Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
+* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a drastic improvement from our base model
+* Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved from our initial results.: 
+
+
