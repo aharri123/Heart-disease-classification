@@ -198,3 +198,6 @@ Lastly, we looked at feature importance of the Random Forest:
 Although both the Decision Tree and Random Forest models peformed similarly, the final choice is to use a Random Forest model. Decision Trees lack randomness due to their use of a greedy algorithm, but Random Forests address this lack of randomness by using subspace sampling and by using multiple decision trees. The use of multiple decision trees also allows for more interpretability via feature importance, which can be used to look at either the forest, or individual trees.
 
 Two grid searches were ran for our Random Forest model, each with different hyperparameter values. While the two showed similar results, the second grid search model was chosen. The results are resummarized below:
+
+**Overfitting**
+While certain values like precision may be lower in our tuned model when compared to our initial model, there is a decrease in overfitting occuring. This can be seen when comparing the initial training model results to our improved training model results.
