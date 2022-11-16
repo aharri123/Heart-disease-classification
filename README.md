@@ -189,6 +189,6 @@ The better performing Random Forest model had precision score of .26, a recall s
 * 302 patients were wrongly predicted as being at risk for CHD
 * 105 patients were correctly predicted as being at risk for CHD
 
-Lastly, we looked at feature importance of the random forest:
+Lastly, we looked at feature importance of the Random Forest:
 
 ![feature_importance](https://user-images.githubusercontent.com/45251340/202257500-3b4e789c-8691-4de7-b545-6e984c46c389.JPG)
