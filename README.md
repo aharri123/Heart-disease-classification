@@ -201,3 +201,19 @@ Two grid searches were ran for our Random Forest model, each with different hype
 
 **Overfitting**
 * While certain values like precision may be lower in our tuned model when compared to our initial model, there is a decrease in overfitting occuring. This can be seen when comparing the initial training model results to our improved training model results.
+
+**Precision, recall, F1 score**
+
+* Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
+* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a 50% improvement of from our base model
+* Our model had a low f1 score, indicating poor performance on predicting risk of CHD, but had improved by 7% from the initial model.
+
+**Confusion Matrix Results**
+* 575 patients were correctly predicted as not being at risk for CHD
+* 52 patients were wrongly predicted as not being at risk for CHD
+* 302 patients were wrongly predicted as being at risk for CHD
+* 105 patients were correctly predicted as being at risk for CHD
+
+**Feature Importance**
+
+* The feature that was most indicative of whether someone is at risk for CHD was age. Other important features included systolic and diastolic blood pressure (sysBP and diaBP), whether the person had a history of high blood pressure (prevalentHyp), total cholesterol level (totChol), and sex (male).
