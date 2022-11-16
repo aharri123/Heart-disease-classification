@@ -217,3 +217,10 @@ Two grid searches were ran for our Random Forest model, each with different hype
 **Feature Importance**
 
 * The feature that was most indicative of whether someone is at risk for CHD was age. Other important features included systolic and diastolic blood pressure (sysBP and diaBP), whether the person had a history of high blood pressure (prevalentHyp), total cholesterol level (totChol), and sex (male).
+
+### Conclusion ###
+Our goal was to see which classification model best predicted whether someone was at risk in 10 years for coronary heart disease (CHD). The results are to be presented to the largest hospital in Massachusetts (The Massachusetts General Hospital), and will help the hospital create a treatment/preventative plan for at-risk patients early on. Our data came from the Framingham Heart Study, a long term study (started in 1948) that has lead to the identification of several modern day CVD risk factors.
+
+Three classification models were chosen: Logistic Regression, Decision Tree, and Random Forest. The Decision Tree and Random Forest models were then chosen to be tuned further (due to having more hyperparameters than Logistic Regression). Both models showed improvements upon tuning, such as decreases in overfitting, improved F1 scores, and improved recall scores. However the Random Forest model was chosen based on its advantages over the Decision Tree model.
+
+Feature importance was also looked at for the Random Forest model, and the feature that was most indicative of whether someone was at risk for CHD was age. Other features that carried importance were systolic and diastolic blood pressure, whether the person had a history of high blood pressure, total cholesterol levels, and sex. This may be of importance for future use and improvement of the model, because by removing less important features and running the model again, we may see an increase in performance.
