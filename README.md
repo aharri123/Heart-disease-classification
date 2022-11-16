@@ -167,3 +167,60 @@ For our test model class 1 (meaning the patient is at risk for coronary heart di
 **2) Random Forest**
 
 Two grid searches were ran, using **n_estimators, max_depth, min_samples_split, and min_samples_leaf** as the grid search parameters. 
+
+
+Both showed reduced overfitting, but the better performing one had the following classification reports and confusion matrix:
+
+![rand_forest_classifcation_reports2](https://user-images.githubusercontent.com/45251340/202256674-a428b516-cb55-4695-9fdb-653fdc8edbac.JPG)
+
+![rand_forest_confusion_matrix2](https://user-images.githubusercontent.com/45251340/202256698-83fd1678-efcf-434d-b40a-e7eac81b5406.JPG)
+
+
+The better performing Random Forest model had precision score of .26, a recall score of .67, and an f1 score of .37, meaning:
+
+* Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
+* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a drastic improvement from our base model
+* Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved from our initial results.: 
+
+**Then, Looking at our test model confusion matrix we can see that:**
+
+* 575 patients were correctly predicted as not being at risk for CHD
+* 52 patients were wrongly predicted as not being at risk for CHD
+* 302 patients were wrongly predicted as being at risk for CHD
+* 105 patients were correctly predicted as being at risk for CHD
+
+Lastly, we looked at feature importance of the Random Forest:
+
+![feature_importance](https://user-images.githubusercontent.com/45251340/202257500-3b4e789c-8691-4de7-b545-6e984c46c389.JPG)
+
+
+### Final Results ###
+Although both the Decision Tree and Random Forest models peformed similarly, the final choice is to use a Random Forest model. Decision Trees lack randomness due to their use of a greedy algorithm, but Random Forests address this lack of randomness by using subspace sampling and by using multiple decision trees. The use of multiple decision trees also allows for more interpretability via feature importance, which can be used to look at either the forest, or individual trees.
+
+Two grid searches were ran for our Random Forest model, each with different hyperparameter values. While the two showed similar results, the second grid search model was chosen. The results are resummarized below:
+
+**Overfitting**
+* While certain values like precision may be lower in our tuned model when compared to our initial model, there is a decrease in overfitting occuring. This can be seen when comparing the initial training model results to our improved training model results.
+
+**Precision, recall, F1 score**
+
+* Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
+* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a 50% improvement of from our base model
+* Our model had a low f1 score, indicating poor performance on predicting risk of CHD, but had improved by 7% from the initial model.
+
+**Confusion Matrix Results**
+* 575 patients were correctly predicted as not being at risk for CHD
+* 52 patients were wrongly predicted as not being at risk for CHD
+* 302 patients were wrongly predicted as being at risk for CHD
+* 105 patients were correctly predicted as being at risk for CHD
+
+**Feature Importance**
+
+* The feature that was most indicative of whether someone is at risk for CHD was age. Other important features included systolic and diastolic blood pressure (sysBP and diaBP), whether the person had a history of high blood pressure (prevalentHyp), total cholesterol level (totChol), and sex (male).
+
+### Conclusion ###
+Our goal was to see which classification model best predicted whether someone was at risk in 10 years for coronary heart disease (CHD). The results are to be presented to the largest hospital in Massachusetts (The Massachusetts General Hospital), and will help the hospital create a treatment/preventative plan for at-risk patients early on. Our data came from the Framingham Heart Study, a long term study (started in 1948) that has lead to the identification of several modern day CVD risk factors.
+
+Three classification models were chosen: Logistic Regression, Decision Tree, and Random Forest. The Decision Tree and Random Forest models were then chosen to be tuned further (due to having more hyperparameters than Logistic Regression). Both models showed improvements upon tuning, such as decreases in overfitting, improved F1 scores, and improved recall scores. However the Random Forest model was chosen based on its advantages over the Decision Tree model.
+
+Feature importance was also looked at for the Random Forest model, and the feature that was most indicative of whether someone was at risk for CHD was age. Other features that carried importance were systolic and diastolic blood pressure, whether the person had a history of high blood pressure, total cholesterol levels, and sex. This may be of importance for future use and improvement of the model, because by removing less important features and running the model again, we may see an increase in performance.
