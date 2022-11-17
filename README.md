@@ -153,8 +153,8 @@ We graphed training and test AUC scores for the **max_depth, min_samples_split, 
 For our test model class 1 (meaning the patient is at risk for coronary heart disease) we have a precision score of .23, a recall score of .69, and an f1 score of .34, meaning:
 
 * Out of all the patients that the model predicted would be at risk for CHD, 23% were actually at risk.
-* Out of all the patients that were at risk for CHD, the model correctly predicted 69% of them, which is a drastic improvement from our base model
-* Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved from our initial results.
+* Out of all the patients that were at risk for CHD, the model correctly predicted 69% of them, which is a 33% improvement from the base model
+* Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved by 6% since the initial model.
 
 **Looking at our test model confusion matrix we can see that:**
 
@@ -179,8 +179,8 @@ Both showed reduced overfitting, but the better performing one had the following
 The better performing Random Forest model had precision score of .26, a recall score of .67, and an f1 score of .37, meaning:
 
 * Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
-* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a drastic improvement from our base model
-* Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved from our initial results.: 
+* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them,  which is a 40% improvement from from our base model
+* Our model has a low f1 score, indicating poor performance on predicting risk of CHD, but has improved by 7% from the initial model.
 
 **Then, Looking at our test model confusion matrix we can see that:**
 
@@ -205,7 +205,7 @@ Two grid searches were ran for our Random Forest model, each with different hype
 **Precision, recall, F1 score**
 
 * Out of all the patients that the model predicted would be at risk for CHD, 26% were actually at risk.
-* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a 50% improvement of from our base model
+* Out of all the patients that were at risk for CHD, the model correctly predicted 67% of them, which is a 40% improvement of from our base model
 * Our model had a low f1 score, indicating poor performance on predicting risk of CHD, but had improved by 7% from the initial model.
 
 **Confusion Matrix Results**
